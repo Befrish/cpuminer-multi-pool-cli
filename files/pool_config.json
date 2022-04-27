@@ -400,5 +400,31 @@
         ]
       }
     ]
+  },{
+    "name": "MinerClaim",
+    "currencies": [
+      {
+        "currency": {
+          "name": "CoinMagi",
+          "symbol": "XMG"
+        },
+        "algorithms": [
+          {
+            "name": "m7m",
+            "connections": [
+              {
+                "difficulty": 1,
+                "baseurl": "xmg.minerclaim.net",
+                "port": 7008
+              },
+              {
+                "baseurl": "xmg.minerclaim.net",
+                "port": 3333
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
